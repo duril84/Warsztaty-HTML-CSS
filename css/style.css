@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'raleway';
+    font-family: 'ralewaybold';
     src: url('raleway-bold-webfont.woff2') format('woff2'),
          url('raleway-bold-webfont.woff') format('woff');
     font-weight: bold;
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-    font-family: 'raleway';
+    font-family: 'ralewaybolder';
     src: url('raleway-extrabold-webfont.woff2') format('woff2'),
          url('raleway-extrabold-webfont.woff') format('woff');
     font-weight: bolder;
@@ -349,3 +349,228 @@ h2 span {
 }
 
 /*------------------------------------------ S E C O N D   S E C T I O N  - E N D */
+
+
+/*--------------------------------------------------------------------------------*/
+/*                                                                                */
+/* T H I R D   S E C T I O N                                                      */
+/*                                                                                */
+/*--------------------------------------------------------------------------------*/
+
+
+section.section__3 {
+    padding: 42px 0 70px 0;
+    background-color: #f1f1f1;
+}
+
+.section__3 p {
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    letter-spacing: -0.03em;
+}
+
+.main_width .section__3__title .section__3__underline {
+    width: 320px;
+    height: 7px;
+    background-color: #24BA9F;
+    position: relative;
+    bottom: -4px;
+}
+
+.section__3 .main_width:nth-child(2) .section__3__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section__3__column {
+    margin: 75px 0 0 0;
+    padding: 0 0 0 0;
+    width: 31%;
+    
+    border: 2px solid #aaaaaa;
+    
+
+}
+
+.section__3__column .section__3__column__circle {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f1f1f1;;
+    background-color:  #aaaaaa;
+    box-shadow: 0 0 0 1px #aaaaaa;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%);
+}
+
+.section__3__column h3 {
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #24BA9F;
+    transform: translateY(-65%);
+}
+
+.section__3__column div {
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+    transform: translateX(75%) translateY(5%);
+}
+
+.section__3__column div p:nth-child(1) {
+    font-family: 'raleway', sans-serif;
+    color: #aaaaaa;
+    font-size: 42px;
+    font-weight: 800;
+    transform: translateY(60%);
+}
+
+.section__3__column div p:nth-child(2) {
+    font-family: 'raleway', sans-serif;
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 860;
+    transform: translateX(25%) translateY(-100%);
+}
+.section__3__column div p:nth-child(3) {
+    font-family: 'raleway', sans-serif;
+    color: #aaaaaa;
+    font-size: 17px;
+    font-weight: 800;
+    transform: translateX(0%) translateY(100%);
+}
+
+.section__3__column:nth-child(2) {
+    background-color:  #24BA9F;
+    border: 2px solid #24BA9F;
+}
+
+
+.section__3__column:nth-child(2) .section__3__column__circle {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #24BA9F;;
+    background-color:  #f1f1f1;
+    box-shadow: 0 0 0 1px #24BA9F;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%);
+}
+
+.section__3__column:nth-child(2) h3 {
+    color: #f1f1f1;
+}
+
+.section__3__column:nth-child(2) div {
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #24BA9F;
+    border-radius: 50%;
+    transform: translateX(75%) translateY(5%);
+}
+
+.section__3__column:nth-child(2) div p:nth-child(1) {
+    font-family: 'raleway', sans-serif;
+    color: #24BA9F;
+    font-size: 42px;
+    font-weight: 800;
+    transform: translateY(60%);
+}
+
+.section__3__column:nth-child(2) div p:nth-child(2) {
+    font-family: 'raleway', sans-serif;
+    color: #24BA9F;
+    font-size: 16px;
+    font-weight: 860;
+    transform: translateX(25%) translateY(-100%);
+}
+.section__3__column:nth-child(2) div p:nth-child(3) {
+    font-family: 'raleway', sans-serif;
+    color: #24BA9F;
+    font-size: 17px;
+    font-weight: 800;
+    transform: translateX(0%) translateY(100%);
+}
+.section__3__column ul {
+    padding: 40px 0 20px 0;
+}
+
+.section__3__column ul li {
+    font-family: 'raleway', sans-serif;
+    font-size: 22px;
+    color: #b4b4b4;
+    line-height: 45px;
+    text-align: center
+}
+
+.section__3__column ul li:nth-child(2n+1) {
+    background-color:  #e4e4e4;
+}
+
+.section__3__column ul li:nth-child(2n) {
+    background-color:  #f1f1f1;
+}
+
+.section__3__column:nth-child(2n+1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__3__column:nth-child(2n+1) a {
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    width: 122px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: #24BA9F;
+    padding: 7px 0 0 28px;
+    align-self: center;
+
+    margin: auto 0 20px 0;
+ 
+}
+
+.section__3__column:nth-child(2n) {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__3__column:nth-child(2n) a {
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #24BA9F;
+    width: 122px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 7px 0 0 28px;
+    align-self: center;
+
+    margin: auto 0 20px 0;
+ 
+}
+
+/*-------------------------------------------- T H I R D   S E C T I O N  - E N D */
+

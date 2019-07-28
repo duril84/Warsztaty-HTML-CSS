@@ -1,4 +1,5 @@
 /*@import 'fonts.css';*/ /*do przemyślenia*/
+@import url('../css/stylecheckbox.css');
 
 /*--------------------------------------------------------------------------------*/
 /*                                                                                */
@@ -574,3 +575,124 @@ section.section__3 {
 
 /*-------------------------------------------- T H I R D   S E C T I O N  - E N D */
 
+/*--------------------------------------------------------------------------------*/
+/*                                                                                */
+/* F O U R T H  S E C T I O N                                                     */
+/*                                                                                */
+/*--------------------------------------------------------------------------------*/
+
+section.section__4 {
+    padding: 25px 0 70px 0;
+    background-color: #ffffff;
+}
+
+.section__4 .main_width:first-child {
+    padding: 0 0 23px 0;  
+    /*display: flex;
+    flex-direction: column;*/
+}
+
+.section__4 p {
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    letter-spacing: -0.03em;
+}
+
+.main_width .section__4__title .section__4__underline {
+    width: 320px;
+    height: 7px;
+    background-color: #24BA9F;
+    position: relative;
+    bottom: -4px;
+}
+
+.section__4 .main_width:last-child .section__4__item {
+    border: 1px solid yellow;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .section__4 .main_width:first-child div {
+    transform: translateX(2px);
+ }
+ 
+
+
+ .section__4 .main_width .section__4__column:first-child {
+    width: 61%;
+ }
+
+ .section__4 .main_width .section__4__column:last-child {
+    width: 37%;
+    transform: translateX(55px);
+ }
+
+.action p input {
+    border: 1px solid #24BA9F;
+    margin: 27px 0 0 0;
+    width: 100%;
+    
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-size: 34px;
+    letter-spacing: -0.03em;
+    text-indent: 0.5em;
+    line-height: 62px;
+}
+
+.action p textarea {
+    border: 1px solid #24BA9F;
+    margin: 27px 0 0 0;
+    width: 100%;
+    height: 185px;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-size: 34px;
+    letter-spacing: -0.03em;
+    text-indent: 0.5em;
+    line-height: 62px;
+    resize: none;
+}
+
+
+ .section__4 .main_width .section__4__column:last-child .section__4__img {
+    height: 205px;
+    background-image: url('../images/red_chair.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.section__4 .checkbox * {
+    transform: translateX(-19px) translateY(7px);
+}
+
+.section__4 .checkbox label {
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    padding-top: 0;
+}
+ 
+.section__4 .main_width .section__4__item .section__4__column a {
+    font-family: 'raleway', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #24BA9F;
+    padding: 17px 113px;
+    align-self: center;
+    position: absolute;
+    margin: auto 0 20px 0;
+    transform: translateY(14px) translateX(-21px);
+}
+
+
+/*------------------------------------------ F O U R T H   S E C T I O N  - E N D */

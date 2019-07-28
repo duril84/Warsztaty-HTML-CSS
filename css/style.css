@@ -48,7 +48,7 @@
 
 
 .main_width {
-    border: 1px solid red; 
+    /*border: 1px solid red;*/ 
     margin: 0 auto;
     width: 1050px;
     display: flex;
@@ -150,8 +150,7 @@ h1 span {
 /*--------------------------------------------------------------------------------*/
 
 section:first-of-type {
-    padding: 64px 0 7px 0;
-    background-image: linear-gradient(to bottom, #fdfdfd ,#cbcacf );
+     background: linear-gradient(to bottom, #f9f9f9 0%,#fcfcfc 0%,#f8f8f8 0%,#fafafa 1%,#fafafa 8%,#f8f8f8 8%,#f7f7f7 45%,#f5f5f5 45%,#f5f5f5 54%,#f3f3f3 55%,#f3f3f3 58%,#f1f1f1 59%,#f1f1f3 63%,#eeeef0 64%,#eeeef0 66%,#eaeaec 69%,#ebebed 70%,#e7e7e9 72%,#e6e5ea 75%,#e2e1e6 77%,#e1e0e5 80%,#dddce1 82%,#dedde3 83%,#dbdae0 84%,#dbdae0 86%,#d7d6dc 89%,#d8d7dd 89%,#d5d4da 91%,#d6d5db 91%,#d4d3d9 92%,#d5d4dc 93%,#d2d1d9 94%,#d3d2da 95%,#d0cfd7 97%,#d1d0d8 99%,#cacdd4 100%);
 }
 
 .article__1 { 
@@ -606,9 +605,8 @@ section.section__4 {
     position: relative;
     bottom: -4px;
 }
-
+ 
 .section__4 .main_width:last-child .section__4__item {
-    border: 1px solid yellow;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -696,3 +694,18 @@ section.section__4 {
 
 
 /*------------------------------------------ F O U R T H   S E C T I O N  - E N D */
+
+
+/*--------------------------------------------------------------------------------*/
+/*                                                                                */
+/* F O O T E R  S E C T I O N                                                     */
+/*                                                                                */
+/*--------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------- F O O T E R  S E C T I O N  - E N D */

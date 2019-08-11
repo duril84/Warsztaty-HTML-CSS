@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------------------------*/
+/*                                                                                */
+/*  F O O T E R   S C S S                                                         */
+/*                                                                                */
+/*--------------------------------------------------------------------------------*/
+footer {
+    padding: 5px 0;
+    margin-bottom: 100px;
+    .container {
+        align-items: flex-end;
+        div:nth-child(1) {
+            width: 65%;
+        }
+        div:nth-child(2){
+            flex: 1;
+        }
+        div:nth-child(3){
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    p {
+        color: $color-border-primary;
+        font-weight: 500;
+        letter-spacing: 0.025em;
+        font-size: 17px;
+    }
+    p.logo {
+        font-size: 20px;
+        span {
+            font-weight: 800;
+        }
+    }
+
+}
+
+// ikony społecznościwe
+
+.footer__social {
+    padding: 0 10px;
+    display: flex;
+    li {
+        height: 35px;
+        width: 35px;
+        background-size: contain;
+        margin: 0 auto;
+        &:nth-child(1) {
+            background-image: $image-flickr;
+        }
+        &:nth-child(2) {
+            background-image: $image-vimeo;
+        }
+        &:nth-child(3) {
+            background-image: $image-pinterest;
+        }
+        &:nth-child(4) {
+            background-image: $image-twitter;
+        }
+        &:hover {
+            background-repeat: no-repeat;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+    }
+}

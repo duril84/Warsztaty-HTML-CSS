@@ -1,4 +1,8 @@
 
+body {
+    font-family: $main-font-family;
+}
+
 /* podstawowy kontener dla każdej sekcji */
 
 .container {
@@ -6,4 +10,9 @@
     margin: 0 auto;
     width: 1070px;
     display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
 }

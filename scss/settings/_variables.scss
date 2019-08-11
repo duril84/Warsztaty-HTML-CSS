@@ -1,23 +1,13 @@
 
 /* podstawowe zmienne */
 
-// kolory
-
-$color-font-primary-dark: #000000;
-$color-font-primary-light: #ffffff;
-$color-font-secondary: #24BA9F;
-
-$color-header: #000000;
-
-$color-background-section-1: linear-gradient(to bottom, #f9f9f9 0%,#fcfcfc 0%,#f8f8f8 0%,#fafafa 1%,#fafafa 8%,#f8f8f8 8%,#f7f7f7 45%,#f5f5f5 45%,#f5f5f5 54%,#f3f3f3 55%,#f3f3f3 58%,#f1f1f1 59%,#f1f1f3 63%,#eeeef0 64%,#eeeef0 66%,#eaeaec 69%,#ebebed 70%,#e7e7e9 72%,#e6e5ea 75%,#e2e1e6 77%,#e1e0e5 80%,#dddce1 82%,#dedde3 83%,#dbdae0 84%,#dbdae0 86%,#d7d6dc 89%,#d8d7dd 89%,#d5d4da 91%,#d6d5db 91%,#d4d3d9 92%,#d5d4dc 93%,#d2d1d9 94%,#d3d2da 95%,#d0cfd7 97%,#d1d0d8 99%,#cacdd4 100%);
-
-
 // margines i padding
 
 $main-margin: 10px;
 $main-padding: 10px;
 
-// czcionka
+// zdjęcia z slidera
 
-$main-font-family: 'raleway', sans-serif;
-$main-font-size: 14px;
+$image-black-chair: url('../images/black_chair.png');
+$image-orange-chair: url('../images/orange_chair.png');
+$image-red-chair: url('../images/red_chair.png');

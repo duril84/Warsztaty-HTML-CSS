@@ -15,27 +15,23 @@
 
 .products__item:nth-child(1) {
     background-image: $image-clair-chair;
+}
+.products__item:nth-child(2){
+    background-image: $image-margarita-chair;
+}
+.products__item:nth-child(1),
+.products__item:nth-child(2) {
     background-size: contain;
     background-repeat: no-repeat;
+    cursor: pointer;
     &:hover {
         .products__description,
         .products__description-underline {
-            display: none;
+            animation: disappearance 0.3s 0s 1 linear alternate-reverse forwards;
         }
     }
 }
 
-.products__item:nth-child(2){
-    background-image: $image-margarita-chair;
-    background-size: contain;
-    background-repeat: no-repeat;
-    &:hover {
-        .products__description,
-        .products__description-underline {
-            display: none;
-        }
-    }
-}
 
 .products__description {
     font-size: $main-font-size*1.2;

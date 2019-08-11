@@ -1,3 +1,8 @@
+/*--------------------------------------------------------------------------------*/
+/*                                                                                */
+/* B A S E                                                                        */
+/*                                                                                */
+/*--------------------------------------------------------------------------------*/
 
 body {
     font-family: $main-font-family;
@@ -15,4 +20,21 @@ body {
 
 .hidden {
     display: none;
+}
+
+.animation {
+    animation: disappearance 1s 0s 1 linear alternate;
+}
+
+.animation-revers {
+    animation: disappearance 1s 0s 1 linear alternate-reverse;
+}
+
+@keyframes disappearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

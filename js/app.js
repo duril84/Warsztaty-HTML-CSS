@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function(){
     console.log( 'DOM SIT ON CHAIR' );
  
     
-    var prevSlideButton = document.querySelector('.slider__article-back');
-    var nextSlideButton = document.querySelector('.slider__article-next');
+    var prevSlideButton = document.querySelector('#prevSlide');
+    var nextSlideButton = document.querySelector('#nextSlide');
     var imagesContainer = document.querySelector('.slider__article-images');
     var imagesList = imagesContainer.querySelectorAll('li');
     var indeks = 0;
@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', function(){
         if ( indeks === -1 ) {
             indeks = imagesList.length-1;
         }
+        imagesList[indeks].classList.add('animation');
         imagesList[indeks].classList.remove('hidden');
+        
     })
 
      nextSlideButton.addEventListener('click', function(){
@@ -23,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function(){
         if ( indeks === imagesList.length ) {
             indeks = 0;
         }
+        imagesList[indeks].classList.add('animation');
         imagesList[indeks].classList.remove('hidden');
     })
 

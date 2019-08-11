@@ -1,8 +1,18 @@
+//--------------------------------------------------------------------------------//
+//                                                                                //
+// V A R I A B L E S                                                              //
+//                                                                                //
+//--------------------------------------------------------------------------------//
 
 // margin & padding
 
 $main-margin: 10px;
 $main-padding: 10px;
+
+// czcionka
+
+$main-font-family: 'raleway', sans-serif;
+$main-font-size: 14px;
 
 // slider images
 
@@ -21,5 +31,3 @@ $image-flickr: url(../images/flickr.png);
 $image-vimeo: url(../images/vimeo.png);
 $image-pinterest: url(../images/pinterest.png);
 $image-twitter: url(../images/twitter.png);
-
-

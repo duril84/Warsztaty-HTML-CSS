@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------------------------*/
+/*                                                                                */
+/*  H E A D E R   S C S S                                                         */
+/*                                                                                */
+/*--------------------------------------------------------------------------------*/
+
+header {
+
+    padding: $main-padding 0; 
+    background-color: $color-header;
+    font-family: $main-font-family;
+
+    .container {
+        justify-content: space-between;
+    }
+
+    .logo {
+        padding-left: 0.7rem;
+        font-weight: 400;
+        font-size: $main-font-size;
+
+        letter-spacing: 0.04rem;
+        word-spacing:  -0.05rem;
+        color: $color-font-primary-light;
+        span {
+            font-weight: 1000;
+            color: $color-font-secondary;
+        }
+    }
+
+    a {
+        font-size: 0.9rem;
+        color: $color-font-primary-light;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        li {
+            position: relative;
+            padding-left: 2.7rem;
+            padding-right: 0.2rem;
+            &:hover .dropdown {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                letter-spacing: 0.08rem;
+            }
+        }
+    }
+    
+    ul.dropdown {
+        width: 120px;
+        height: 96px;
+        background-color: $color-header;
+        padding: $main-padding;
+        top: 38px;
+        left: 27px;
+        position: absolute;
+    
+        display: none; 
+        li {
+            padding: 0;
+            &:hover {
+                background-color: lighten($color-header,30%);
+            }
+        }
+    }
+    
+    .dropdown::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: $color-header;
+        position: absolute;
+        transform-origin: 50% 50%;
+        transform: translate(400%,-150%) scale(1.3) rotate(45deg);
+    }
+    
+    .dropdown::after {
+        content: '';
+        width: 120px;
+        height: 40px;
+        position: absolute;
+        transform: translate(-10px, -50px);
+    }
+
+}
+
+

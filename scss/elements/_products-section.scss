@@ -1,0 +1,87 @@
+/*--------------------------------------------------------------------------------*/
+/*                                                                                */
+/* P R O D U C T S   S E C T I O N                                                */
+/*                                                                                */
+/*--------------------------------------------------------------------------------*/
+
+.products {
+    padding: 27px 0 69px 0;
+}
+
+.products__item {
+    height: 254px;
+    width: 32%; 
+}
+
+.products__item:nth-child(1) {
+    background-image: $image-clair-chair;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &:hover {
+        .products__description,
+        .products__description-underline {
+            display: none;
+        }
+    }
+}
+
+.products__item:nth-child(2){
+    background-image: $image-margarita-chair;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &:hover {
+        .products__description,
+        .products__description-underline {
+            display: none;
+        }
+    }
+}
+
+.products__description {
+    font-size: $main-font-size*1.2;
+    letter-spacing: -0.03em;
+    color: $color-font-primary-dark;
+    padding: $main-padding*1.5 0 0 $main-padding*1.5;
+    height: 62px;
+    background-color: $color-belt;
+    position: relative;
+    bottom: calc(107px - 100%);
+    
+}
+
+.products__description-underline {
+    width: 137px;
+    height: 7px;
+    background-color: $color-font-secondary;
+    position: relative;
+    bottom: calc(136px - 100%);
+    left: 15px;
+}
+
+.products__item:nth-child(3) {
+    border: 1px solid $color-border-primary;
+    .products__description {
+        letter-spacing: 0em;
+        line-height: 0px;
+        position: relative;
+        padding: 35px 0 0 24px;
+        top: 0px;
+    }
+    .products__description-underline {
+        width: 137px;
+        height: 7px;
+        background-color: $color-font-secondary;
+        position: relative;
+        bottom: 16px;
+        left: 24px;
+    }
+    p {
+        padding: 24px 45px 0 0;
+        font-size: $main-font-size*1.1;
+        letter-spacing: -0.03em;
+        line-height: 21px;
+        position: relative;
+        left: 24px;
+        top: -30px;     
+    }
+}

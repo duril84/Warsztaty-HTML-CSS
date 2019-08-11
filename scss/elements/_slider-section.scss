@@ -1,11 +1,12 @@
 /*--------------------------------------------------------------------------------*/
 /*                                                                                */
-/* S L I D E R                                                                    */
+/* S L I D E R   S E C T I O N                                                    */
 /*                                                                                */
 /*--------------------------------------------------------------------------------*/
 
 .slider {
-    background: $color-background-section-1;
+    background: $color-background-slider;
+    overflow: hidden;
 }
 
 .slider__article {
@@ -89,6 +90,10 @@ li:nth-child(3) .slider__article-img {
 
         color: $color-font-primary-light;
         background-color: $color-font-secondary;
+        &:hover {
+           // color: darken( $color-font-primary-light, 20%);
+            background-color: darken($color-font-secondary, 20%);
+        }
     }
 }
 
@@ -112,16 +117,18 @@ li:nth-child(3) .slider__article-img {
 
 .slider__article-back {
     @include arrow($color-font-secondary, left, 40px);
+    cursor: pointer;
     z-index: 2;
     &:hover {
-        @include arrow(lighten($color-font-secondary, 30%), left, 40px);
+        @include arrow(darken($color-font-secondary, 20%), left, 40px);
     }
 }
 
 .slider__article-next {
     @include arrow($color-font-secondary, right, 40px);
+    cursor: pointer;
     z-index: 2;
     &:hover {
-        @include arrow(lighten($color-font-secondary, 30%), right, 40px);
+        @include arrow(darken($color-font-secondary, 20%), right, 40px);
     }
 }

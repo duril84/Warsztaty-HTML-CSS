@@ -1,0 +1,150 @@
+/*--------------------------------------------------------------------------------*/
+/*                                                                                */
+/* P R I C E S   S E C T I O N                                                    */
+/*                                                                                */
+/*--------------------------------------------------------------------------------*/
+.prices {
+    padding: 42px 0 70px 0;
+    background-color: $color-background-prices;
+
+}
+.prices__title-description {
+    font-size: 23px;
+    letter-spacing: -0.03em;
+}
+
+.prices__title-underline {
+    width: 320px;
+    height: 7px;
+    background-color: $color-font-secondary;
+    position: relative;
+    bottom: -4px;
+}
+
+.prices__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices__item-column {
+    display: flex;
+    flex-direction: column;
+    margin: 75px 0 0 0;
+    padding: 0 0 0 0;
+    width: 31%;
+    border: 2px solid $color-border-primary;
+    background-color: $color-font-primary-light;
+    .prices__item-circle {
+        width: 55px;
+        height: 55px;
+        border: 14px solid $color-font-primary-light;
+        background-color: $color-border-primary;
+        box-shadow: 0 0 0 1px $color-border-primary;
+        border-radius: 50%;
+        box-sizing: border-box;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) translateY(-65%);
+    }
+    h3 {
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: $color-font-secondary;
+        transform: translateY(-65%);
+    }
+    div {
+        height: 130px;
+        width: 130px;
+        text-align: center;
+        background-color: $color-font-primary-light;
+        border: 1px solid $color-border-primary;
+        border-radius: 50%;
+        transform: translateX(75%) translateY(5%);
+        p {
+            color: $color-border-primary;
+            font-weight: 800;
+            &:nth-child(1) {
+                font-size: 42px;
+                transform: translateY(60%);
+            }
+            &:nth-child(2) {
+                font-size: 16px;
+                transform: translateX(25%) translateY(-100%);
+            }
+            &:nth-child(3) {
+                font-size: 17px;
+                transform: translateX(0%) translateY(100%);
+            }
+        }
+    }
+    ul {
+        padding: 40px 0 20px 0;
+        li {
+            font-size: 22px;
+            color: darken($color-background-prices, 40%);
+            line-height: 45px;
+            text-align: center;
+            &:nth-child(2n+1) {
+                background-color:  darken($color-background-prices, 5%);
+            };
+            &:nth-child(2n) {
+                background-color:  $color-background-prices;
+            };
+        }
+    }
+    a {
+        font-size: 17px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color-font-primary-light;
+        width: 122px;
+        height: 34px;
+        border-radius: 10px;
+        background-color: $color-font-secondary;
+        padding: 7px 0 0 28px;
+        align-self: center;
+        margin: auto 0 20px 0;
+    }
+    &:hover{
+        border: 2px solid $color-font-secondary;
+        background-color: $color-font-secondary;
+        .prices__item-circle {
+            border: 14px solid $color-font-secondary;
+            background-color: $color-font-primary-light;
+            box-shadow: 0 0 0 1px $color-font-secondary;
+        }
+        h3 {
+            color: $color-font-secondary;
+        }
+        div {
+            background-color: $color-font-primary-light;
+            border: 1px solid $color-border-primary;
+            p {
+                color: $color-font-secondary;
+            }
+        }
+        ul {
+            li {
+                color: darken($color-background-prices, 40%);
+                &:nth-child(2n+1) {
+                    background-color: $color-background-prices;
+                };
+                &:nth-child(2n) {
+                    background-color: darken($color-background-prices, 5%);
+                };
+            }
+        }
+        a {
+            color: $color-font-secondary;
+            background-color: $color-font-primary-light;
+        }
+    }
+    
+}
+
+
+
+
+

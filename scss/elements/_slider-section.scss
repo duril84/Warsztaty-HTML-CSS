@@ -33,11 +33,14 @@
 
 li:nth-child(1) .slider__article-img {
     background-image: $image-black-chair;
+
 }
+
 li:nth-child(2) .slider__article-img {
     background-image: $image-orange-chair;
-    transform: scale(1.0) translate(0px, 143px);
+    transform: scale(1) translate(-25px, 155px);
 }
+
 li:nth-child(3) .slider__article-img {
     background-image: $image-red-chair;
     transform: scale(0.9) translate(0px, 125px);

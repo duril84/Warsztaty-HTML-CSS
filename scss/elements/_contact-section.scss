@@ -54,20 +54,24 @@
 
 .contact .container {
   .contact__column {
-    a {
+    button { 
+      cursor: pointer;
       font-family: $main-font-family;
-      font-weight: 800;
+      font-weight: 400;
       font-size: 32px;
-      text-decoration: none;
       text-transform: uppercase;
       color: $color-font-primary-light;
       border-radius: 10px;
       background-color: $color-font-secondary;
-      padding: 17px 113px;
+      padding: 17px 112px;
       align-self: center;
       position: absolute;
       margin: auto 0 20px 0;
-      transform: translateY(14px) translateX(-21px);
+      transform: translateY(12px) translateX(-16px);
+      border: none;
+      &:hover {
+        background-color: darken($color-font-secondary, 20%);
+      }
     }
     &:first-child {
       width: 61%;
@@ -84,6 +88,10 @@
       }
     }
   }
+}
+
+.action {
+  display: flex;
 }
 
 .action p input {

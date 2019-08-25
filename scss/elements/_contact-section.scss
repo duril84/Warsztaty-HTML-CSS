@@ -3,3 +3,112 @@
 /* C O N T A C T   S E C T I O N                                                  */
 /*                                                                                */
 /*--------------------------------------------------------------------------------*/
+
+.contact {
+  padding: 25px 0 70px 0;
+  background-color: $color-font-primary-light;
+  
+  .container:first-child {
+    padding: 0 0 23px 0;  
+  }
+  
+  p {
+    font-family: $main-font-family;
+    font-weight: normal;
+    font-size: 23px;
+    letter-spacing: -0.03em;
+  }
+
+  .checkbox * {
+    transform: translateX(-19px) translateY(7px);
+  }
+  
+  .checkbox label {
+    font-family: $main-font-family;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    padding-top: 0;
+  }
+  
+}
+
+.contact__title-underline {
+  width: 320px;
+  height: 7px;
+  background-color: $color-font-secondary;
+  position: relative;
+  bottom: -4px;
+}
+
+.contact .container:last-child .contact__item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact .container:first-child div {
+  transform: translateX(2px);
+}
+
+.contact .container {
+  .contact__column {
+    a {
+      font-family: $main-font-family;
+      font-weight: 800;
+      font-size: 32px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $color-font-primary-light;
+      border-radius: 10px;
+      background-color: $color-font-secondary;
+      padding: 17px 113px;
+      align-self: center;
+      position: absolute;
+      margin: auto 0 20px 0;
+      transform: translateY(14px) translateX(-21px);
+    }
+    &:first-child {
+      width: 61%;
+    }
+    &:last-child {
+      width: 37%;
+      transform: translateX(55px);
+      .contact__img {
+        height: 205px;
+        background-image: $image-red-chair;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.action p input {
+  border: 1px solid $color-font-secondary;
+  margin: 27px 0 0 0;
+  width: 100%;
+  
+  font-family: $main-font-family;
+  font-weight: normal;
+  font-size: 34px;
+  letter-spacing: -0.03em;
+  text-indent: 0.5em;
+  line-height: 62px;
+}
+
+.action p textarea {
+  border: 1px solid $color-font-secondary;
+  margin: 27px 0 0 0;
+  width: 100%;
+  height: 185px;
+  font-family: $main-font-family;
+  font-weight: normal;
+  font-size: 34px;
+  letter-spacing: -0.03em;
+  text-indent: 0.5em;
+  line-height: 62px;
+  resize: none;
+}

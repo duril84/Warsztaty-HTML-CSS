@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
+
+
     console.log( 'DOM SIT ON CHAIR' );
  
     
@@ -30,3 +32,4 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 
  })
+ 

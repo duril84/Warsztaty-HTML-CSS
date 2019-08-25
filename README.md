@@ -1,2 +1,2 @@
-# Warsztaty-HTML-CSS
-Warsztaty HTMLCSS > Wykonanie strony SIT ON CHAIR
+# HTMLCSS Workshops
+HTMLCSS Workshops > Website development "SIT ON CHAIR"

@@ -174,26 +174,26 @@
                         <span class="list_label">Wybierz rodzaj</span>
                         <span class="list_arrow"></span>
                         <ul class="list_panel">
-                            <li>Clair</li>
-                            <li>Margarita</li>
-                            <li>Selena</li>
+                            <li data-chair-price="460">Clair</li>
+                            <li data-chair-price="550">Margarita</li>
+                            <li data-chair-price="360">Selena</li>
                         </ul>
                     </div>
                     <div class="drop_down_list">
                         <span class="list_label">Wybierz kolor</span>
                         <span class="list_arrow"></span>
                         <ul class="list_panel">
-                            <li>Czerwony</li>
-                            <li>Czarny</li>
-                            <li>Pomarańczowy</li>
+                            <li data-color-price="60">Czerwony</li>
+                            <li data-color-price="80">Czarny</li>
+                            <li data-color-price="70">Pomarańczowy</li>
                         </ul>
                     </div>
                     <div class="drop_down_list">
                         <span class="list_label">Wybierz materiał</span>
                         <span class="list_arrow"></span>
                         <ul class="list_panel">
-                            <li>Tkanina</li>
-                            <li>Skóra</li>
+                            <li data-pattern-price="75">Tkanina</li>
+                            <li data-pattern-price="150">Skóra</li>
                         </ul>
                     </div>
                     <div class="checkbox check-box">
@@ -216,20 +216,24 @@
                 </div>
     
                 <div class="summary_panel">
-                    <div class="panel_left">
-                        <h4 class="title">Twój fotel</h4>
-                        <span class="color"></span>
-                        <span class="pattern"></span>
-                        <span class="transport"></span>
+                    <div class="panels">
+                        <div class="panel_left">
+                            <h4 class="title">Twój fotel</h4>
+                            <span class="color"></span>
+                            <span class="pattern"></span>
+                            <span class="transport"></span>
+                        </div>
+                        <div class="panel_right">
+                            <h4 class="title value"></h4>
+                            <span class="color value"></span>
+                            <span class="pattern value"></span>
+                            <span class="transport value"></span>
+                        </div>
                     </div>
-                    <div class="panel_right">
-                        <h4 class="title value"></h4>
-                        <span class="color value"></span>
-                        <span class="pattern value"></span>
-                        <span class="transport value"></span>
+                    <div>
+                        <div class="sum_label">SUMA</div>
+                        <div class="sum"><strong></strong></div>
                     </div>
-                    <div class="sum_label">SUMA</div>
-                    <div class="sum"><strong></strong></div>
                 </div>
                 <a href="" class="green_button">Zamawiam</a>
             </section>
@@ -258,8 +262,8 @@
                     <div class="contact__column">
                         <div class="contact__img"></div>
                         <div class="checkbox check-box">
-                            <input type="checkbox" id="transport" data-transport-price="200">
-                            <label for="transport">Zgadzam się na przetwarzanie danych osobowych</label>
+                            <input type="checkbox" id="agreement">
+                            <label for="agreement">Zgadzam się na przetwarzanie danych osobowych</label>
                         </div>
                         <button class="contact__link">Wyślij</button>
                     </div>
